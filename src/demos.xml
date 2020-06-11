@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<demos>
+   <name>Pose Estimation Toolbox</name>
+   <type>toolbox</type>
+   <icon>HelpIcon.DEMOS</icon>
+   <website/>
+   <description/>
+   <demosection>
+      <label>doc</label>
+      <demoitem>
+         <label>GettingStarted</label>
+         <type>other</type>
+         <source>GettingStarted</source>
+         <file>doc/html/GettingStarted.html</file>
+      </demoitem>
+      <demoitem>
+         <label>SimplePoseNetEstimationOnJetson</label>
+         <type>other</type>
+         <source>SimplePoseNetEstimationOnJetson</source>
+         <file>doc/html/SimplePoseNetEstimationOnJetson.html</file>
+      </demoitem>
+      <demoitem>
+         <label>SimplePoseNetEstimationWithWebcamExample</label>
+         <type>other</type>
+         <source>SimplePoseNetEstimationWithWebcamExample</source>
+         <file>doc/html/SimplePoseNetEstimationWithWebcamExample.html</file>
+      </demoitem>
+      <demoitem>
+         <label>SimplePoseNetForMultiPerson</label>
+         <type>other</type>
+         <source>SimplePoseNetForMultiPerson</source>
+         <file>doc/html/SimplePoseNetForMultiPerson.html</file>
+      </demoitem>
+      <demoitem>
+         <label>SimplePoseNetTrainingExample</label>
+         <type>other</type>
+         <source>SimplePoseNetTrainingExample</source>
+         <file>doc/html/SimplePoseNetTrainingExample.html</file>
+      </demoitem>
+   </demosection>
+</demos>

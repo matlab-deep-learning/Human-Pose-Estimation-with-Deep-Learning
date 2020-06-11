@@ -1,0 +1,228 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="1041642904" file="C:\OneDrive\OneDrive - MathWorks\Shared with Everyone\Application_Slides\Deep_Learning\Pose_Estimation\simple-pose-estimation\simple-pose-estimation-package.prj" location="C:\OneDrive\OneDrive - MathWorks\Shared with Everyone\Application_Slides\Deep_Learning\Pose_Estimation\simple-pose-estimation" name="simple-pose-estimation-package" target="target.toolbox" target-name="ツールボックスのパッケージ化">
+    <param.appname>Pose Estimation Toolbox</param.appname>
+    <param.authnamewatermark>Tohru Kikawada</param.authnamewatermark>
+    <param.email>tkikawad@mathworks.com</param.email>
+    <param.company>The MathWorks, Inc.</param.company>
+    <param.summary>Simple Human Pose Estimation Toolbox</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\logo.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\Pose Estimation Toolbox.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Computer Vision Toolbox</item>
+      <item>Deep Learning Toolbox</item>
+      <item>GPU Coder</item>
+      <item>Image Processing Toolbox</item>
+      <item>MATLAB Coder</item>
+      <item>Parallel Computing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>96</item>
+      <item>12</item>
+      <item>155</item>
+      <item>17</item>
+      <item>135</item>
+      <item>80</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.8</item>
+      <item>9.2</item>
+      <item>14.0</item>
+      <item>1.5</item>
+      <item>11.1</item>
+      <item>5.0</item>
+      <item>7.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>f3e11ae6-430a-45cc-a939-18cc7d4c14fb</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+resources/project/*
+.SimulinkProject/*
+_SimulinkProject/*
+resources/.Project/*
+resources/_Project/*
+**/*.prj
+ToolboxPackagingConfiguration.prj</param.exclude.filters>
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleCategory name="doc"&gt;
+      &lt;example name="GettingStarted" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/GettingStarted.html&lt;/file&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="SimplePoseNetEstimationOnJetson" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/SimplePoseNetEstimationOnJetson.html&lt;/file&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="SimplePoseNetEstimationWithWebcamExample" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/SimplePoseNetEstimationWithWebcamExample.html&lt;/file&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="SimplePoseNetForMultiPerson" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/SimplePoseNetForMultiPerson.html&lt;/file&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="SimplePoseNetTrainingExample" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/SimplePoseNetTrainingExample.html&lt;/file&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs>${PROJECT_ROOT}\src\info.xml</param.docs>
+    <param.getting.started.guide>${PROJECT_ROOT}\src\doc\GettingStarted.mlx</param.getting.started.guide>
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>true</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id>bacc9cd6-fc18-42f9-bf28-9ccc68762a34</param.matlab.project.id>
+    <param.matlab.project.name>Simple Pose Estimation</param.matlab.project.name>
+    <param.release.start>R2019b</param.release.start>
+    <param.release.end>latest</param.release.end>
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.version />
+      <param.output />
+      <param.platforms />
+      <param.exclude.pcodedmfiles />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.required.addons />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}\src</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\src\+posenet</file>
+      <file>${PROJECT_ROOT}\src\data</file>
+      <file>${PROJECT_ROOT}\src\demos.xml</file>
+      <file>${PROJECT_ROOT}\src\doc</file>
+      <file>${PROJECT_ROOT}\src\info.xml</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\Utility.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\webcamDesktop.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\webcamOnline.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\matlab\webcam\supportpackages\@webcam\webcam.m</file>
+    </fileset.depfun.excluded>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="Pose Estimation Toolbox.mltbx" optional="false">C:\OneDrive\OneDrive - MathWorks\Shared with Everyone\Application_Slides\Deep_Learning\Pose_Estimation\simple-pose-estimation\Pose Estimation Toolbox.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
