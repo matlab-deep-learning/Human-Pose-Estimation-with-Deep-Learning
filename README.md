@@ -1,4 +1,4 @@
-# Human Pose Estimation usign Deep Neural Network
+# Human Pose Estimation with Deep Learning
 
 
 This demo shows how to train and test a human pose estimation using deep neural network. In R2019b, Deep Learning Toolbox(TM) supports low-level APIs to customize training loops and it enables us to train flexible deep neural networks. GPU Coder(TM) also enables us to deploy the trained model to an NVIDIA(R) Jetson(TM) devices. Once deployed, the human pose estimator will be running as a standalone.
@@ -38,7 +38,23 @@ To deploy the model to a NVIDIA Jetson or Drive platforms, you'll also need the 
    -  [GPU Coder Interface for Deep Learning Libraries support package](https://www.mathworks.com/matlabcentral/fileexchange/68642-gpu-coder-interface-for-deep-learning-libraries) (Addon package for GPU Coder) 
    -  [GPU Coder Support Package for NVIDIA GPUs](https://mathworks.com/help/supportpkg/nvidia/index.html) (Addon package for GPU Coder) 
 
+# Installation
+
+
+Download the [latest release](https://github.com/matlab-deep-learning/human-pose-estimation-with-deep-learning/releases/) of this repository. To install, open the .mltbx file in MATLAB.
+
+
 # Getting Started
+
+
+Open the project file to add paths to related folders if you cloned the GitHub respotory.
+
+
+
+```matlab:Code(Display)
+open simple-pose-estimation.prj
+```
+
 
 
 Load a pose estimator model.

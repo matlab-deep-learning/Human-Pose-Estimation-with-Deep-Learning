@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="1041642904" file="C:\matlab\pose-estimation-github\simple-pose-estimation-package.prj" location="C:\matlab\pose-estimation-github" name="simple-pose-estimation-package" target="target.toolbox" target-name="ツールボックスのパッケージ化">
+  <configuration build-checksum="744064971" file="C:\matlab\pose-estimation-github\simple-pose-estimation-package.prj" location="C:\matlab\pose-estimation-github" name="simple-pose-estimation-package" target="target.toolbox" target-name="ツールボックスのパッケージ化">
     <param.appname>Human Pose Estimation with Deep Learning</param.appname>
     <param.authnamewatermark>Tohru Kikawada</param.authnamewatermark>
     <param.email>tkikawad@mathworks.com</param.email>
@@ -7,7 +7,7 @@
     <param.summary>Human Pose Estimation with Deep Learning</param.summary>
     <param.description />
     <param.screenshot>${PROJECT_ROOT}\logo.png</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.version>1.0.1</param.version>
     <param.output>${PROJECT_ROOT}\Human Pose Estimation with Deep Learning.mltbx</param.output>
     <param.products.name>
       <item>MATLAB</item>
@@ -124,7 +124,6 @@ ToolboxPackagingConfiguration.prj</param.exclude.filters>
       <param.email />
       <param.company />
       <param.description />
-      <param.version />
       <param.output />
       <param.platforms />
       <param.exclude.pcodedmfiles />
