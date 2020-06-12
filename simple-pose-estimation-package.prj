@@ -1,14 +1,14 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="1041642904" file="C:\OneDrive\OneDrive - MathWorks\Shared with Everyone\Application_Slides\Deep_Learning\Pose_Estimation\simple-pose-estimation\simple-pose-estimation-package.prj" location="C:\OneDrive\OneDrive - MathWorks\Shared with Everyone\Application_Slides\Deep_Learning\Pose_Estimation\simple-pose-estimation" name="simple-pose-estimation-package" target="target.toolbox" target-name="ツールボックスのパッケージ化">
-    <param.appname>Pose Estimation Toolbox</param.appname>
+  <configuration build-checksum="1041642904" file="C:\matlab\pose-estimation-github\simple-pose-estimation-package.prj" location="C:\matlab\pose-estimation-github" name="simple-pose-estimation-package" target="target.toolbox" target-name="ツールボックスのパッケージ化">
+    <param.appname>Human Pose Estimation with Deep Learning</param.appname>
     <param.authnamewatermark>Tohru Kikawada</param.authnamewatermark>
     <param.email>tkikawad@mathworks.com</param.email>
     <param.company>The MathWorks, Inc.</param.company>
-    <param.summary>Simple Human Pose Estimation Toolbox</param.summary>
+    <param.summary>Human Pose Estimation with Deep Learning</param.summary>
     <param.description />
     <param.screenshot>${PROJECT_ROOT}\logo.png</param.screenshot>
     <param.version>1.0</param.version>
-    <param.output>${PROJECT_ROOT}\Pose Estimation Toolbox.mltbx</param.output>
+    <param.output>${PROJECT_ROOT}\Human Pose Estimation with Deep Learning.mltbx</param.output>
     <param.products.name>
       <item>MATLAB</item>
       <item>Computer Vision Toolbox</item>
@@ -165,7 +165,7 @@ ToolboxPackagingConfiguration.prj</param.exclude.filters>
     </fileset.depfun.excluded>
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="Pose Estimation Toolbox.mltbx" optional="false">C:\OneDrive\OneDrive - MathWorks\Shared with Everyone\Application_Slides\Deep_Learning\Pose_Estimation\simple-pose-estimation\Pose Estimation Toolbox.mltbx</file>
+      <file location="${PROJECT_ROOT}" name="Human Pose Estimation with Deep Learning.mltbx" optional="false">C:\matlab\pose-estimation-github\Human Pose Estimation with Deep Learning.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
