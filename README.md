@@ -11,7 +11,7 @@ This repository includes a pretrained network using the COCO dataset, which was 
 
 
 
-\[![View Human Pose Estimation with Deep Learning on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/76860-human-pose-estimation-with-deep-learning)
+[![View Human Pose Estimation with Deep Learning on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/76860-human-pose-estimation-with-deep-learning)
 
 
 # Required Toolboxes
