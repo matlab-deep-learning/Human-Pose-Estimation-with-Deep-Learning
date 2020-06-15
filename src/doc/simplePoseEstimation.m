@@ -3,14 +3,9 @@ function simplePoseEstimation
 %
 % Copyright 2019 The MathWorks, Inc.
 
-function simplePoseEstimation
-%#codegen
-%
-% Copyright 2019 The MathWorks, Inc.
-
 persistent simplePoseNet;
 if isempty(simplePoseNet)
-    simplePoseNet = coder.loadDeepLearningNetwork('..\train\simplePoseNet.mat','simplePoseNet');
+    simplePoseNet = coder.loadDeepLearningNetwork('simplePoseNet.mat','simplePoseNet');
 end
 
 hwobj = jetson; % To redirect to the code generatable functions.
@@ -31,8 +26,8 @@ while true
     
     % Detect keypoints
     output = simplePoseNet.predict(Icrop);
-    [scores,idx] = max(output,[],[1,2],'linear');
-    [y,x,~,~] = ind2sub(size(output),idx);
+    [scores,idx_out] = max(output,[],[1,2],'linear');
+    [y,x,~,~] = ind2sub(size(output),idx_out);
     keypoints = permute(cat(1,x,y),[3,1,2]);
 
     % Display image.

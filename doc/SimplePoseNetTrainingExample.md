@@ -31,7 +31,7 @@ As a training dataset, we use COCO\hyperref{72EF1FDB}{[2]}. COCO's annotation da
 
 ```matlab:Code
 % COCO datset root directory.
-cocoDir = 'D:\coco';
+cocoDir = 'D:\Dataset\coco';
 if ~exist(cocoDir,"dir")
     error("Dataset cannot be found.")
 end
@@ -334,7 +334,7 @@ initialLearnRate = 0.001;
 
 
 
-Train on a GPU if one is available. Using a GPU requires Parallel Computing Toolbox™ and a CUDA® enabled NVIDIA® GPU with compute capability 3.0 or higher.
+Train on a GPU if one is available. Using a GPU requires Parallel Computing Toolbox(TM) and a CUDA(R) enabled NVIDIA(R) GPU with compute capability 3.0 or higher.
 
 
 
@@ -824,7 +824,11 @@ end
 end
 ```
 
-  
+
+
+**Heatmaps visualization:**
+
+
 
 ```matlab:Code
 function Iout = visualizeHeatmaps(heatmaps, I)
@@ -843,7 +847,11 @@ Iout = im2uint8(Iout);
 end
 ```
 
-  
+
+
+**Keypoints visualization:**
+
+
 
 ```matlab:Code
 function Iout = visualizeKeyPoints(I,joints,skeleton,bboxes)

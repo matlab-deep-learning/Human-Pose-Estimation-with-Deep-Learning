@@ -12,7 +12,7 @@ This example shows how to predict human poses using a pretrained mode with a web
 # Load Camera and Pretrained Network
 
 
-Connect to the camera and load a pretrained GoogLeNet network. You can use any pretrained network at this step. The example requires MATLAB Support Package for USB Webcams, and Deep Learning Toolbox™ Model *for GoogLeNet Network*. If you do not have the required support packages installed, then the software provides a download link.
+Connect to the camera and load a pretrained GoogLeNet network. You can use any pretrained network at this step. The example requires MATLAB Support Package for USB Webcams, and Deep Learning Toolbox(TM) Model *for GoogLeNet Network*. If you do not have the required support packages installed, then the software provides a download link.
 
 
 
