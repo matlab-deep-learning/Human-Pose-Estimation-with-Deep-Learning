@@ -1,13 +1,13 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="744064971" file="C:\matlab\pose-estimation-github\simple-pose-estimation-package.prj" location="C:\matlab\pose-estimation-github" name="simple-pose-estimation-package" target="target.toolbox" target-name="ツールボックスのパッケージ化">
+  <configuration build-checksum="744064971" file="D:\MATLAB\20201111_common\pose-estimation-github\simple-pose-estimation-package.prj" location="D:\MATLAB\20201111_common\pose-estimation-github" name="simple-pose-estimation-package" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>Human Pose Estimation with Deep Learning</param.appname>
     <param.authnamewatermark>Tohru Kikawada</param.authnamewatermark>
     <param.email>tkikawad@mathworks.com</param.email>
     <param.company>The MathWorks, Inc.</param.company>
     <param.summary>Human Pose Estimation with Deep Learning</param.summary>
-    <param.description />
+    <param.description>This demo shows how to train and test a human pose estimation using deep neural network. In R2019b, Deep Learning Toolbox(TM) supports low-level APIs to customize training loops and it enables us to train flexible deep neural networks. GPU Coder(TM) also enables us to deploy the trained model to an NVIDIA(R) Jetson(TM) devices. Once deployed, the human pose estimator will be running as a standalone.</param.description>
     <param.screenshot>${PROJECT_ROOT}\logo.png</param.screenshot>
-    <param.version>1.0.1</param.version>
+    <param.version>1.0.3</param.version>
     <param.output>${PROJECT_ROOT}\Human Pose Estimation with Deep Learning.mltbx</param.output>
     <param.products.name>
       <item>MATLAB</item>
@@ -28,13 +28,13 @@
       <item>80</item>
     </param.products.id>
     <param.products.version>
-      <item>9.8</item>
-      <item>9.2</item>
-      <item>14.0</item>
-      <item>1.5</item>
-      <item>11.1</item>
-      <item>5.0</item>
-      <item>7.2</item>
+      <item>9.9</item>
+      <item>9.3</item>
+      <item>14.1</item>
+      <item>2.0</item>
+      <item>11.2</item>
+      <item>5.1</item>
+      <item>7.3</item>
     </param.products.version>
     <param.platforms />
     <param.guid>f3e11ae6-430a-45cc-a939-18cc7d4c14fb</param.guid>
@@ -123,7 +123,6 @@ ToolboxPackagingConfiguration.prj</param.exclude.filters>
       <param.authnamewatermark />
       <param.email />
       <param.company />
-      <param.description />
       <param.output />
       <param.platforms />
       <param.exclude.pcodedmfiles />
@@ -164,11 +163,11 @@ ToolboxPackagingConfiguration.prj</param.exclude.filters>
     </fileset.depfun.excluded>
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="Human Pose Estimation with Deep Learning.mltbx" optional="false">C:\matlab\pose-estimation-github\Human Pose Estimation with Deep Learning.mltbx</file>
+      <file location="${PROJECT_ROOT}" name="Human Pose Estimation with Deep Learning.mltbx" optional="false">D:\MATLAB\20201111_common\pose-estimation-github\Human Pose Estimation with Deep Learning.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2020a</root>
+      <root>D:\MATLAB\20200917_MATLAB_R2020b</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
