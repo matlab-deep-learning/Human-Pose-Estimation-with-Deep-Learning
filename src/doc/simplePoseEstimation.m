@@ -9,11 +9,13 @@ if isempty(simplePoseNet)
 end
 
 hwobj = jetson; % To redirect to the code generatable functions.
-w = webcam(hwobj,1,'640x480');
+w = webcam(hwobj,1,'1280x720');
 d = imageDisplay(hwobj);
+imageHeight = 720;
 
 threshold = 0.2;
 downScaleFactor = 4;
+resizeFactor = imageHeight/256;
 
 while true
     % Capture the image from the webcam on hardware.
@@ -21,7 +23,8 @@ while true
     
     % Resize and crop the image to fit to the input of the network.
     Iinresize = imresize(Iin,[256 nan]);
-    Itmp = Iinresize(:,(size(Iinresize,2)-192)/2:(size(Iinresize,2)-192)/2+192-1,:);
+    offset = (size(Iinresize,2)-192)/2 - 1;
+    Itmp = Iinresize(:,offset+1:offset+192,:);
     Icrop = Itmp(1:256,1:192,1:3);
     
     % Detect keypoints
@@ -31,9 +34,10 @@ while true
     keypoints = permute(cat(1,x,y),[3,1,2]);
 
     % Display image.
-    Ioutcrop = visualizeKeyPoints(Icrop,keypoints*downScaleFactor,scores,threshold);
-    Iout = imresize(Ioutcrop,2);
-    image(d,Iout);
+    Iout = insertShape(Iin,"rectangle",[offset,0,192,256]*resizeFactor+[1,1,0,0]);
+    Iout = visualizeKeyPoints(Iout,(keypoints*downScaleFactor+[offset,0])*resizeFactor,scores,threshold);
+    Iout = Iout(:,end:-1:1,:);
+    image(d,permute(Iout,[2,1,3]));
 end
 
     function Iout = visualizeKeyPoints(I,joint,scores,threshold)
