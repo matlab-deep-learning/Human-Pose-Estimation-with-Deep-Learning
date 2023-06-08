@@ -22,10 +22,10 @@ Pose Estimation Toolbox requires the following products:
 
 
    -  MATLAB(R) R2019b or later (due to the R2019b new feature) 
-   -  [Deep Learning Toolbox(TM)](https://mathworks.com/products/deep-learning.html) 
-   -  [Image Processing Toolbox(TM)](https://mathworks.com/products/image.html) 
+   -  [Deep Learning Toolbox(TM)](https://www.mathworks.com/products/deep-learning.html) 
+   -  [Image Processing Toolbox(TM)](https://www.mathworks.com/products/image.html) 
    -  [Computer Vision Toolbox(TM)](https://www.mathworks.com/products/computer-vision.html) 
-   -  [Parallel Computing Toolbox(TM)](https://mathworks.com/products/parallel-computing.html) (Required for using GPU computation) 
+   -  [Parallel Computing Toolbox(TM)](https://www.mathworks.com/products/parallel-computing.html) (Required for using GPU computation) 
 
 
 
@@ -33,10 +33,10 @@ To deploy the model to a NVIDIA Jetson or Drive platforms, you'll also need the 
 
 
 
-   -  [MATLAB Coder(TM)](https://mathworks.com/products/matlab-coder.html) 
-   -  [GPU Cder(TM)](https://mathworks.com/products/gpu-coder.html) 
+   -  [MATLAB Coder(TM)](https://www.mathworks.com/products/matlab-coder.html) 
+   -  [GPU Cder(TM)](https://www.mathworks.com/products/gpu-coder.html) 
    -  [GPU Coder Interface for Deep Learning Libraries support package](https://www.mathworks.com/matlabcentral/fileexchange/68642-gpu-coder-interface-for-deep-learning-libraries) (Addon package for GPU Coder) 
-   -  [GPU Coder Support Package for NVIDIA GPUs](https://mathworks.com/help/supportpkg/nvidia/index.html) (Addon package for GPU Coder) 
+   -  [GPU Coder Support Package for NVIDIA GPUs](https://www.mathworks.com/help/supportpkg/nvidia/index.html) (Addon package for GPU Coder) 
 
 # Installation
 
