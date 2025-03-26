@@ -36,7 +36,7 @@ To deploy the model to a NVIDIA Jetson or Drive platforms, you'll also need the 
    -  [MATLAB Coder(TM)](https://www.mathworks.com/products/matlab-coder.html) 
    -  [GPU Cder(TM)](https://www.mathworks.com/products/gpu-coder.html) 
    -  [GPU Coder Interface for Deep Learning Libraries support package](https://www.mathworks.com/matlabcentral/fileexchange/68642-gpu-coder-interface-for-deep-learning-libraries) (Addon package for GPU Coder) 
-   -  [GPU Coder Support Package for NVIDIA GPUs](https://www.mathworks.com/help/supportpkg/nvidia/index.html) (Addon package for GPU Coder) 
+   -  [MATLAB Coder Support Package for NVIDIA Jetson and NVIDIA DRIVE Platforms](https://jp.mathworks.com/help/coder/nvidia.html) (Addon package for GPU Coder) 
 
 # Installation
 
